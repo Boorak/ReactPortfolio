@@ -1,0 +1,30 @@
+.section-about {
+  padding: 10rem 0;
+
+  &__img {
+    position: relative;
+
+    img {
+      height: 100%;
+      height: 520px;
+    }
+  }
+
+  &__img::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border: 10px dashed #151515;
+    position: absolute;
+    top: 30px;
+    right: -30px;
+    z-index: -1;
+  }
+
+  &__bio {
+  }
+
+  &__content {
+    padding-left: 3rem;
+  }
+}

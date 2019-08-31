@@ -1,0 +1,20 @@
+.section-skills {
+  padding: 10rem 0;
+  background-color: #111;
+  transform: skewY(-7deg);
+
+  & > * {
+    transform: skewY(7deg);
+  }
+
+  &__subtitle {
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: inherit;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    display: inline-block;
+    padding-bottom: 1.5rem;
+  }
+}

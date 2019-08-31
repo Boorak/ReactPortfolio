@@ -1,0 +1,20 @@
+.skill-box {
+  margin-bottom: 5rem;
+  background-color: #333333;
+  border-radius: 3px;
+  padding: 2rem;
+
+  & > * {
+    padding-bottom: 0.8rem;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+  }
+
+  &__description {
+    color: #9a9a9a;
+  }
+}
